@@ -1,0 +1,29 @@
+.c-card{
+    margin: 1.5rem auto auto 0;
+    background: $light;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-card--title{
+    color: #00D664;
+    font-size: 0.8rem;
+    padding: 15px 0 0 1rem;
+    margin: 0;
+}
+
+.c-card--model{
+    font-size: 1.33rem;
+    margin: 0;
+    padding-bottom: 1.4rem;
+    padding-left: 1rem;
+
+}
+
+.c-card--image{
+    margin: 12px;
+    width: 70;
+    height: 70;
+}

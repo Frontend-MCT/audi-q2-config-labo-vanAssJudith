@@ -1,0 +1,21 @@
+.c-symbol{}
+.c-symbol-back {
+    width: 3rem;
+    height: 2rem;
+    stroke: $dark;
+    fill: none;
+    stroke-width: 1.5;
+
+}
+
+
+.c-symbol-menu {
+    width: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0;
+    height: 2rem;
+    stroke: $dark;
+    fill: none;
+    stroke-width: 1.5;
+}

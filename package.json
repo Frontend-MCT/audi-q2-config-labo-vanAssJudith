@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "autoprefixer": "^9.5.1",
+    "cssnano": "^4.1.10",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "name": "audi-q2",
+  "version": "0.0.1",
+  "description": "Application Audi Q2",
+  "main": "null",
+  "repository": "https://github.com/Frontend-MCT/audi-q2-config-labo-vanAssJudith.git",
+  "author": "vanAssJudith <judith.van.ass@student.howest.be>",
+  "license": "MIT"
+}

@@ -1,0 +1,40 @@
+:root{
+    --themeColor: #FCB800;
+}
+
+.c-configurator{}
+
+.c-configurator-nav {
+    display: inline-flex;
+    margin-left: 2rem;
+    padding: 0 .5rem .5rem;
+
+    list-style: none;
+
+    border-bottom: 1px solid $light-text;
+}
+
+.c-configurator-nav__item{
+    font-size: 1.1rem;
+    color: $light-text;
+
+    & + & {
+        margin-left: 1.5rem;
+    }
+
+    &:hover {
+        padding-bottom: 1rem;
+        color: var(--themeColor);
+        &:after {
+            content: '';
+            position: relative;
+            display: block;
+            top: .6rem;
+            width: 100%;
+            height: 1px;
+
+
+        }
+
+    }
+}

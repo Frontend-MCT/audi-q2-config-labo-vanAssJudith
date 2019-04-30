@@ -1,0 +1,9 @@
+body,
+html{
+    background: $bg-color;
+    font: 15px/1.5 $font-stack
+}
+
+::selection{
+    background: var(--themeColor);
+}

@@ -12,3 +12,21 @@
     background: $alpha-color;
     color: $light;
 }
+
+.c-button-small {
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 115px;
+    height: 40px;
+    font-size: 14px;
+    background: $alpha-color;
+    color: $light;
+    align-items: center;
+}

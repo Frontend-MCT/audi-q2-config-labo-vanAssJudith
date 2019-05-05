@@ -1,12 +1,9 @@
-:root{
-    --themeColor: #FCB800;
+.c-configurator{
+    margin: 24px 0 24px 0;
 }
-
-.c-configurator{}
 
 .c-configurator-nav {
     display: inline-flex;
-    margin-left: 2rem;
     padding: 0 .5rem .5rem;
 
     list-style: none;
@@ -23,18 +20,17 @@
     }
 
     &:hover {
-        padding-bottom: 1rem;
-        color: var(--themeColor);
+        color: $alpha-color;
         &:after {
             content: '';
             position: relative;
             display: block;
-            top: .6rem;
+            top: .5rem;
             width: 100%;
             height: 1px;
-
-
+            border-bottom: 2px solid $alpha-color;
         }
 
     }
+
 }

@@ -1,8 +1,14 @@
-.c-image{
+.c-image-front{
     display: block;
-    margin: 1.6rem auto 0;
+    margin: 1.5rem auto 0;
     width: 80%;
     height:auto;
+}
 
-
+.c-image-side{
+    display: block;
+    margin: 1.5rem auto 0;
+    width: 100%;
+    height:auto;
+    margin-right: -24px;
 }
